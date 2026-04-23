@@ -1,2 +1,2 @@
 # Python_Problem_Statements
-Code. Solve. Repeat." or "My solutions, my process, my progress.
+A curated collection of programming problems and my solutions across various topics and difficulty levels.
