@@ -1,4 +1,4 @@
-print("Welcome to the Budget Tracker!")
+print("Welcome to the Budget Tracker, where you can monitor your monthly expenses and savings!")
 
 name = input("Enter your name: ")
 
