@@ -1,6 +1,6 @@
 print("Welcome to Report Card Generator!")
 
-students_name = input("Enter student name: ")
+student_name = input("Enter student name: ")
 roll_number = input("Enter student roll number: ")
 
 english_marks = float(input("What is your marks in English?: "))
@@ -9,13 +9,16 @@ math_marks = float(input("What is your marks in Math?: "))
 science_marks = float(input("What is your marks in Science?: "))
 social_marks = float(input("What is your marks in Social?: "))
 
+print(f"Name: {student_name}")
+print(f"Roll Number: {roll_number}")
+
 total_marks = english_marks + hindi_marks + math_marks + science_marks + social_marks
 print(f"Total Marks: {total_marks}.")
 
-average = round(total_marks / 5 ,2)
+average = round(total_marks / 5, 2)
 print(f"Average: {average}.")
 
-percentage = round((total_marks / 500) * 100 ,2)
+percentage = round((total_marks / 500) * 100, 2)
 print(f"Percentage: {percentage}%.")
 
 if percentage >= 95:
@@ -35,3 +38,4 @@ if percentage >= 45:
     print("Congratulations! You have passed in the exam! :)")
 else:
     print("You have failed in the exam :(")
+
